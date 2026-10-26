@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1c30"/>
+      <stop offset="55%" stop-color="#2b2b4a"/>
+      <stop offset="100%" stop-color="#4f7df3"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#dfe4f5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 底板：圆角方形，和项目 UI 的 14px 圆角一个调性 -->
+  <rect x="96" y="96" width="832" height="832" rx="192" fill="url(#bg)"/>
+
+  <!-- 人像：圆头 + 半圆肩（数字人口播里的主体） -->
+  <circle cx="430" cy="392" r="112" fill="url(#fg)"/>
+  <path d="M430 528c-110 0-198 78-206 176 6 34 30 60 62 60h288c32 0 56-26 62-60-8-98-96-176-206-176z"
+        fill="url(#fg)"/>
+
+  <!-- 声波：三条不等高竖条，橙红 = 抖音主色 -->
+  <g fill="#e0452c">
+    <rect x="618" y="420" width="34" height="184" rx="17"/>
+    <rect x="676" y="360" width="34" height="304" rx="17"/>
+    <rect x="734" y="404" width="34" height="216" rx="17"/>
+  </g>
+</svg>

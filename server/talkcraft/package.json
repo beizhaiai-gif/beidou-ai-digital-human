@@ -1,0 +1,28 @@
+{
+  "name": "tc-v2",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.519",
+    "@remotion/bundler": "4.0.519",
+    "@remotion/renderer": "4.0.519",
+    "@remotion/paths": "4.0.519",
+    "@remotion/shapes": "4.0.519",
+    "@remotion/transitions": "4.0.519",
+    "@remotion/media-utils": "4.0.519",
+    "@remotion/noise": "4.0.519",
+    "@remotion/lottie": "4.0.519",
+    "@remotion/layout-utils": "4.0.519",
+    "@remotion/zod-types": "4.0.519",
+    "@remotion/player": "4.0.519",
+    "@remotion/media": "4.0.519",
+    "remotion": "4.0.519",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "gsap": "3.15.0",
+    "zod": "4.4.3",
+    "typescript": "5.9.3"
+  },
+  "devDependencies": {},
+  "talkcraftRuntime": "/Users/mac/WorkBuddy/数字人/tools/video-talkcraft/runtime"
+}

@@ -1,0 +1,32 @@
+# 依赖
+node_modules/
+
+# 前端构建产物
+dist/
+
+# 打包产物（不进仓库，走 Release 上传）
+release/
+runtime-dist/
+runtime/
+
+# 运行时数据与密钥（绝不外传）
+server/config/
+server/jobs/
+data/
+*.log
+
+# Remotion 渲染工程的本机依赖软链（指向本机绝对路径，别人 clone 下来是死链）
+server/talkcraft/node_modules
+
+# 渲染时生成的素材（本人出镜原片 / 配音，属私人内容，不进仓库）
+server/talkcraft/public/video/
+server/talkcraft/public/narration.wav
+
+# 环境变量
+.env
+.env.local
+.env*.local
+
+# 系统
+.DS_Store
+Thumbs.db

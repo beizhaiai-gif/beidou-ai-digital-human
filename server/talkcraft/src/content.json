@@ -1,0 +1,487 @@
+{
+ "captionStyle": "karaoke",
+ "shots": {
+  "s01": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "你们知道做自媒体有多大工程量吗？",
+    "keyword": "工程量"
+   },
+   "corner": "tr",
+   "text": "你们知道做自媒体有多大工程量吗？",
+   "note": "强调工程量"
+  },
+  "s02": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "这是一个人跑完全流程的我，扒资料，",
+   "note": "纯人物镜"
+  },
+  "s03": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "找选题，写脚本，盯数据，消息一多就容易乱，"
+   },
+   "corner": "tr",
+   "text": "找选题，写脚本，盯数据，消息一多就容易乱，",
+   "note": "逐行滑入字段不全"
+  },
+  "s04": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "每次复盘都要在十几个软件里跳来跳去。",
+    "keyword": "十几个软件"
+   },
+   "corner": "tr",
+   "text": "每次复盘都要在十几个软件里跳来跳去。",
+   "note": "强调软件多"
+  },
+  "s05": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "而这是让 AI 工作台干活的我，",
+   "note": "纯人物镜"
+  },
+  "s06": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "动动手指就能拿到所有数据。",
+    "keyword": "动动手指"
+   },
+   "corner": "tr",
+   "text": "动动手指就能拿到所有数据。",
+   "note": "强调便捷"
+  },
+  "s07": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "没遇到你之前",
+    "line2": "我简直是在乱忙活"
+   },
+   "corner": "tr",
+   "text": "WorkBuddy，没遇到你之前，",
+   "note": "金句对比"
+  },
+  "s08": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "我简直是在乱忙活。",
+   "note": "纯人物镜"
+  },
+  "s09": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "你可能很难相信",
+    "line2": "WorkBuddy这"
+   },
+   "corner": "tr",
+   "text": "你可能很难相信，WorkBuddy 这",
+   "note": "关键词没命中"
+  },
+  "s10": {
+   "card": "info-term-card",
+   "fields": {
+    "term": "StepFun Preview",
+    "abbr": "SFP",
+    "gloss": "WorkBuddy 新接入的模型"
+   },
+   "corner": "bl",
+   "text": "次全新接入的 StepFun Preview",
+   "note": "解释新名词"
+  },
+  "s11": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "用起来到底有多爽。",
+   "note": "纯人物镜"
+  },
+  "s12": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "不用装插件，不用配环境，而且整个搭建过程超级简单，"
+   },
+   "corner": "tr",
+   "text": "不用装插件，不用配环境，而且整个搭建过程超级简单，",
+   "note": "逐行滑入字段不全"
+  },
+  "s13": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "几句话",
+    "line2": "收获专属 AI 工作台"
+   },
+   "corner": "tr",
+   "text": "只需要几句话就能收获一个属于你的个性化 AI 工作台。",
+   "note": "强调简单"
+  },
+  "s14": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "我现在就演示给你看。",
+   "note": "纯人物镜"
+  },
+  "s15": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "首先我们选中 StepFun"
+   },
+   "corner": "tr",
+   "text": "首先我们选中 StepFun",
+   "note": "界面流程剧场字段不全"
+  },
+  "s16": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "Preview 模型，在这里我希望成果能手动录入，"
+   },
+   "corner": "tr",
+   "text": "Preview 模型，在这里我希望成果能手动录入，",
+   "note": "界面流程剧场字段不全"
+  },
+  "s17": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "自动监测也能持续更新，并且服务于单独账号。",
+   "note": "拆重复"
+  },
+  "s18": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "于是呢，我直接把我过往的视频数据，"
+   },
+   "corner": "tr",
+   "text": "于是呢，我直接把我过往的视频数据，",
+   "note": "避免连用"
+  },
+  "s19": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "选题库，运营复盘，对标账号都一股脑的丢给它，",
+   "note": "让节奏"
+  },
+  "s20": {
+   "card": "chat-gpt",
+   "fields": {
+    "ask": "我需要一个能点、能看图、能添东西的工作台",
+    "answer": "好的，已为你生成"
+   },
+   "corner": "br",
+   "text": "用最直白的话告诉它，我需要一个能点，",
+   "note": "对话式指令"
+  },
+  "s21": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "能看图，还能一直往",
+    "line2": "往里添东西的工作台"
+   },
+   "corner": "tr",
+   "text": "能看图，还能一直往里添东西的工作台。",
+   "note": "关键词没命中"
+  },
+  "s22": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "我全程没有操心，喝杯水的功夫，",
+   "note": "纯人物镜"
+  },
+  "s23": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "它就能自动把我的数据整理清晰，",
+    "keyword": "自动"
+   },
+   "corner": "tr",
+   "text": "它就能自动把我的数据整理清晰，",
+   "note": "强调自动化"
+  },
+  "s24": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "把成品放到我的眼前来。",
+   "note": "纯人物镜"
+  },
+  "s25": {
+   "card": "line-by-line-slide",
+   "fields": {
+    "lines": [
+     "打开总览台面看看",
+     "不花哨",
+     "不晃眼"
+    ]
+   },
+   "corner": "tr",
+   "text": "打开总览台面看看，不花哨，不晃眼，",
+   "note": "轮换换卡"
+  },
+  "s26": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "不花哨，不晃眼",
+    "line2": "还怪有审美水平"
+   },
+   "corner": "tr",
+   "text": "还怪有审美水平的。",
+   "note": "评价界面"
+  },
+  "s27": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "我们挨个看它到底装了些啥，发了多少条，",
+   "note": "纯人物镜"
+  },
+  "s28": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "跑了多少播放，哪条爆了，数字配图一眼就扫完了。"
+   },
+   "corner": "tr",
+   "text": "跑了多少播放，哪条爆了，数字配图一眼就扫完了。",
+   "note": "数字滚动计数字段不全"
+  },
+  "s29": {
+   "card": "line-by-line-slide",
+   "fields": {
+    "lines": [
+     "往下翻一下",
+     "发布数据",
+     "过往选题"
+    ]
+   },
+   "corner": "tr",
+   "text": "往下翻一下，发布数据，过往选题，",
+   "note": "轮换换卡"
+  },
+  "s30": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "运营复盘都完全匹配。",
+   "note": "纯人物镜"
+  },
+  "s31": {
+   "card": "chapter-title-card",
+   "fields": {
+    "num": "1",
+    "name": "选题库与热点",
+    "sub": "两大亮点模块"
+   },
+   "corner": "tr",
+   "text": "那最让我意外的呢，是选题库和热点速览这两个模块。",
+   "note": "开启新章节"
+  },
+  "s32": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "选题库里三十多条排在队里，先拍哪个，",
+   "note": "让节奏"
+  },
+  "s33": {
+   "card": "line-by-line-slide",
+   "fields": {
+    "lines": [
+     "压哪个",
+     "点一下就改了",
+     "灵感来了随时都可以往里加"
+    ]
+   },
+   "corner": "tr",
+   "text": "压哪个，点一下就改了，灵感来了随时都可以往里加。",
+   "note": "轮换换卡"
+  },
+  "s34": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "热点速览呢，是把九月和十月的大事连成了一条线，",
+   "note": "拆重复"
+  },
+  "s35": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "每周往上续就可以了。"
+   },
+   "corner": "tr",
+   "text": "每周往上续就可以了。",
+   "note": "避免连用"
+  },
+  "s36": {
+   "card": "line-by-line-slide",
+   "fields": {
+    "lines": [
+     "而这两个模块的共同点是",
+     "它自动分析"
+    ]
+   },
+   "corner": "tr",
+   "text": "而这两个模块的共同点是，它自动分析",
+   "note": "轮换换卡"
+  },
+  "s37": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "了事件的重要程度，并且划分了执行的等级，",
+   "note": "让节奏"
+  },
+  "s38": {
+   "card": "hand-drawn-ellipse",
+   "fields": {
+    "target": "P1 P0 P2",
+    "lead": "自动标注了"
+   },
+   "corner": "br",
+   "text": "自动标注了 P1，P0，P2，让人一目了然。",
+   "note": "圈出等级"
+  },
+  "s39": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "没有额外下指令",
+    "line2": "它却替我先行一步"
+   },
+   "corner": "tr",
+   "text": "我没有额外下指令，它却替我先行了一步，",
+   "note": "金句总结"
+  },
+  "s40": {
+   "card": "host-shrink-to-chip",
+   "fields": {},
+   "corner": "tr",
+   "text": "帮我加快了创作决策的速度。",
+   "note": "纯人物镜"
+  },
+  "s41": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "这对于自媒体人追",
+    "line2": "热点的需求来说"
+   },
+   "corner": "tr",
+   "text": "这对于自媒体人追热点的需求来说，",
+   "note": "关键词没命中"
+  },
+  "s42": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "天选爆款制造机"
+   },
+   "corner": "tr",
+   "text": "无疑是一位天选爆款制造机啊。",
+   "note": "金句"
+  },
+  "s43": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "复盘也不用我记了，动一下它就自动留条，"
+   },
+   "corner": "tr",
+   "text": "复盘也不用我记了，动一下它就自动留条，",
+   "note": "界面流程剧场字段不全"
+  },
+  "s44": {
+   "card": "line-by-line-slide",
+   "fields": {
+    "lines": [
+     "想整体备份",
+     "点一下就导出来了"
+    ]
+   },
+   "corner": "tr",
+   "text": "想整体备份，点一下就导出来了。",
+   "note": "人物太多"
+  },
+  "s45": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "散养的账号",
+    "line2": "有了能长血肉的中台"
+   },
+   "corner": "tr",
+   "text": "等于我以前散养的账号，现在有了一个能自己长血肉的中台。",
+   "note": "比喻金句"
+  },
+  "s46": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "资料呢，是越攒越值钱。",
+    "keyword": "越攒越值钱"
+   },
+   "corner": "tr",
+   "text": "资料呢，是越攒越值钱。",
+   "note": "强调价值"
+  },
+  "s47": {
+   "card": "line-by-line-slide",
+   "fields": {
+    "lines": [
+     "不管你是自媒体人",
+     "还是被繁琐的数据报"
+    ]
+   },
+   "corner": "tr",
+   "text": "不管你是自媒体人，还是被繁琐的数据报",
+   "note": "人物太多"
+  },
+  "s48": {
+   "card": "keyword-pop-highlight",
+   "fields": {
+    "text": "表追着跑的打工人，都可以试试让"
+   },
+   "corner": "tr",
+   "text": "表追着跑的打工人，都可以试试让",
+   "note": "逐行滑入字段不全"
+  },
+  "s49": {
+   "card": "quote-card",
+   "fields": {
+    "line1": "专属 AI 工作台"
+   },
+   "corner": "tr",
+   "text": "WorkBuddy 给你搭这么一个专属 AI 工作台。",
+   "note": "强调专属"
+  },
+  "s50": {
+   "card": "info-term-card",
+   "fields": {
+    "term": "StepFun Preview",
+    "abbr": "SFP",
+    "gloss": "已上线 WorkBuddy"
+   },
+   "corner": "bl",
+   "text": "现在 StepFun Preview",
+   "note": "再次提及"
+  },
+  "s51": {
+   "card": "subscribe-cta",
+   "fields": {
+    "text": "关注·一键三连"
+   },
+   "corner": "br",
+   "text": "已经上线 WorkBuddy，还不赶紧去试试。",
+   "note": "片尾关注"
+  }
+ },
+ "pip": {
+  "on": true,
+  "cx": 0.5,
+  "cy": 0.3,
+  "w": 0.28,
+  "boxW": 300,
+  "boxH": 380
+ },
+ "captions": {
+  "on": false
+ }
+}

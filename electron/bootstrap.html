@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>北抖AI数字人 · 环境准备</title>
+<style>
+  :root { --bg:#f4f5fa; --card:#fff; --text:#1f2330; --sub:#8a90a2; --brand:#6c5ce7; --track:#e8e9f2; }
+  * { box-sizing:border-box; }
+  html,body { height:100%; margin:0; }
+  body {
+    background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
+    display:flex; align-items:center; justify-content:center;
+    -webkit-user-select:none; user-select:none;
+  }
+  .card { background:var(--card); border-radius:16px; padding:40px 48px; width:440px; box-shadow:0 12px 40px rgba(31,35,48,.08); text-align:center; }
+  .logo { font-size:22px; font-weight:700; letter-spacing:1px; margin-bottom:6px; }
+  .logo span { color:var(--brand); }
+  .sub { color:var(--sub); font-size:13px; margin-bottom:28px; }
+  .bar { height:10px; background:var(--track); border-radius:6px; overflow:hidden; }
+  .fill { height:100%; width:0%; background:linear-gradient(90deg,#6c5ce7,#a29bfe); transition:width .2s ease; }
+  .pct { margin-top:14px; font-size:14px; font-weight:600; }
+  .task { margin-top:6px; color:var(--sub); font-size:12px; min-height:16px; }
+  .tip { margin-top:22px; color:var(--sub); font-size:11px; line-height:1.6; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">北抖<span>AI</span>数字人</div>
+    <div class="sub">首次启动 · 正在准备运行环境</div>
+    <div class="bar"><div class="fill" id="fill"></div></div>
+    <div class="pct" id="pct">0%</div>
+    <div class="task" id="task">检测运行环境中…</div>
+    <div class="tip">首次使用需下载数字人引擎（约 1.6GB），请保持网络畅通。<br/>下载完成后会自动进入工作台。</div>
+  </div>
+<script>
+  const fill = document.getElementById('fill')
+  const pct = document.getElementById('pct')
+  const task = document.getElementById('task')
+  if (window.__ELECTRON__ && window.__ELECTRON__.onRuntimeProgress) {
+    window.__ELECTRON__.onRuntimeProgress((p) => {
+      const ratio = p.total ? Math.min(100, Math.round((p.downloaded / p.total) * 100)) : 0
+      fill.style.width = ratio + '%'
+      pct.textContent = ratio + '%'
+      task.textContent = '正在下载：' + (p.label || '') + '  ' + ratio + '%'
+    })
+  }
+</script>
+</body>
+</html>
