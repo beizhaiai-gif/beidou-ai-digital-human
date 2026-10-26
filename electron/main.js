@@ -26,8 +26,19 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const PORT = 5181
 const URL = `http://127.0.0.1:${PORT}`
 
+/**
+ * 是否运行在打包后的应用里。
+ *
+ * 不能只用 app.isPackaged —— 它靠"可执行文件是不是还叫 Electron"来判断。
+ * 我们手动打包（ditto 解包 + 改 Info.plist），二进制名没改时它会谎报 false，
+ * 于是环境检测整段被跳过：别人装上永远下不到运行环境。
+ * 补一条硬判据：resources 下有没有 app/package.json。
+ */
+const PACKAGED =
+  app.isPackaged || fs.existsSync(path.join(process.resourcesPath, 'app', 'package.json'))
+
 /** 开发时跑项目根；打包后跑 resources/app */
-const APP_ROOT = app.isPackaged
+const APP_ROOT = PACKAGED
   ? path.join(process.resourcesPath, 'app')
   : path.join(__dirname, '..')
 const SERVER_ENTRY = path.join(APP_ROOT, 'server', 'index.js')
@@ -60,7 +71,7 @@ const runtimeRoot = path.join(app.getPath('userData'), 'runtime')
  * onProgress 把下载进度推给前端 bootstrap 页。
  */
 async function prepareRuntime(onProgress) {
-  if (!app.isPackaged) return
+  if (!PACKAGED) return
   const missing = checkRuntime(runtimeRoot)
   if (!missing.length) return
   if (!RUNTIME_BASE) {
@@ -149,7 +160,7 @@ function createWindow() {
     return { action: 'deny' }
   })
   // 打包态先显示「环境准备」页，runtime 就绪后再切到工作台
-  if (app.isPackaged) {
+  if (PACKAGED) {
     win.loadFile(path.join(__dirname, 'bootstrap.html'))
   } else {
     win.loadURL(URL)
@@ -222,7 +233,7 @@ if (!app.requestSingleInstanceLock()) {
 
   app.whenReady().then(async () => {
     buildMenu()
-    if (app.isPackaged) {
+    if (PACKAGED) {
       createWindow()
       try {
         await prepareRuntime((p) => {
@@ -244,7 +255,7 @@ if (!app.requestSingleInstanceLock()) {
       app.quit()
       return
     }
-    if (app.isPackaged) {
+    if (PACKAGED) {
       if (win && !win.isDestroyed()) win.loadURL(URL)
     } else {
       createWindow()

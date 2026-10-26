@@ -84,6 +84,13 @@ if [ "$PLAT" = "mac" ]; then
   plutil -replace CFBundleDisplayName -string "$APP_NAME" "$PLIST"
   plutil -replace CFBundleIconFile -string electron.icns "$PLIST"
   cp "$ROOT/electron/icons/icon.icns" "$RES/electron.icns"
+  # 可执行文件必须改名：不改的话活动监视器里显示 Electron，
+  # 而且 Electron 会以为自己跑在开发模式（app.isPackaged=false），
+  # 首次启动的环境检测会被整段跳过。改完再签名。
+  if [ -f "$APP/Contents/MacOS/Electron" ]; then
+    mv "$APP/Contents/MacOS/Electron" "$APP/Contents/MacOS/$APP_NAME"
+    plutil -replace CFBundleExecutable -string "$APP_NAME" "$PLIST"
+  fi
   codesign --force --deep --sign - "$APP" 2>/dev/null || echo "（跳过签名）"
 
   Z="$OUT/${APP_NAME}-${VER}-mac-${ARCH}.zip"
