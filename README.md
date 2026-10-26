@@ -8,13 +8,15 @@
 
 ## 下载
 
-前往 **[Releases](../../releases/latest)** 页面，按你的电脑系统选择：
+前往 **[Releases](../../releases/latest)** 页面下载。
 
-| 系统 | 文件 | 说明 |
+| 系统 | 文件 | 状态 |
 |---|---|---|
-| Mac（Apple 芯片 M1/M2/M3/M4） | `北抖AI数字人-x.x.x-mac-arm64.zip` | 下载后解压，把 App 拖进「应用程序」 |
-| Mac（Intel 芯片） | `北抖AI数字人-x.x.x-mac-x64.zip` | 同上 |
-| Windows 64 位 | `北抖AI数字人-x.x.x-win-x64.zip` | 解压后双击「启动 北抖AI数字人.bat」 |
+| Mac（Intel 芯片） | `BeidouAI-DigitalHuman-0.1.0-mac-x64.zip` | ✅ 可用 |
+| Mac（Apple 芯片 M1–M4） | — | ⏳ 运行环境包需在 M 系列机器上生成 |
+| Windows 64 位 | — | ⏳ 待适配 |
+
+安装：解压 → 把「北抖AI数字人.app」拖进「应用程序」。
 
 ### 第一次打开会提示「无法验证开发者」
 
@@ -25,7 +27,6 @@
     ```
     xattr -cr /Applications/北抖AI数字人.app
     ```
-- **Windows**：点「更多信息」→「仍要运行」。若被 SmartScreen 拦住，右键 zip →「属性」→ 勾选「解除锁定」→ 确定，再解压。
 
 ---
 
